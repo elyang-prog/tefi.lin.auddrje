@@ -1,0 +1,22 @@
+# Configuración local y credenciales
+.vscode/
+.codex/
+.agents/
+.aws/
+.env
+.env.*
+!.env.example
+
+# Originales de imágenes: se conservan localmente.
+# La web usa las copias optimizadas incluidas en assets/.
+assets/generated/
+
+# Temporales y dependencias
+node_modules/
+tmp/
+temp/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+Desktop.ini
