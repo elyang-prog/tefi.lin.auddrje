@@ -108,7 +108,8 @@ En `assets/` hay recursos descargados de otros frames que no usa `index.html`: `
 ## Preferencias de colaboración
 
 - Preparación de GitHub: se inicializó el repositorio Git local en `main`, con `README.md`, `.gitignore` y `.gitattributes`. La web y el PDF se incluyen; `assets/generated/`, ajustes del editor, temporales y archivos de entorno quedan excluidos, conservándose en disco.
-- El usuario proporcionó el repositorio `https://github.com/elyang-prog/tefi.lin.auddrje.git`. Se comprobó que está vacío y accesible mediante Git. Se prepara la primera subida desde `main` usando Git; no hace falta la integración de ChatGPT para esa vía.
+- Repositorio remoto: `https://github.com/elyang-prog/tefi.lin.auddrje.git` (web: `https://github.com/elyang-prog/tefi.lin.auddrje`). El usuario lo proporcionó vacío y se completó la primera subida desde `main`: commit `5e0bc31` con la web, las imágenes optimizadas y el PDF. `origin/main` queda configurada como rama de seguimiento. Se utilizó la autenticación existente de Git, sin necesitar la integración de GitHub en ChatGPT.
+- Para futuras actualizaciones, guardar los cambios en un commit y subir `main` a `origin`. Los PNG originales siguen excluidos de Git y conservados en disco. Subir el repositorio no activa por sí solo el alojamiento del sitio web.
 
 - Revisión del título: los pies se unificaron con el título exacto de portada. Inicio tenía una descripción genérica; ahora presenta el título completo en el resumen y el pie. Se evitó duplicar el título largo en la nota inferior y se incorporó como título para compartir en los metadatos de las siete páginas principales.
 - El PDF está disponible dentro del proyecto y enlazado para lectura/descarga. Esta incorporación no supone que la web se haya publicado en Internet.
